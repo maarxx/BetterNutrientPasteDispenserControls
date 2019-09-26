@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ModMetaData>
+  <name>BetterNutrientPasteDispenserControls</name>
+  <author>Maarx</author>
+  <url>https://github.com/maarxx/BetterNutrientPasteDispenserControls/</url>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
+  <description>Adds better controls for Nutrient Paste DIspensers.</description>
+</ModMetaData>
