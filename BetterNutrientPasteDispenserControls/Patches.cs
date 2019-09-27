@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using UnityEngine;
 using Verse;
 
 namespace BetterNutrientPasteDispenserControls
@@ -61,6 +62,7 @@ namespace BetterNutrientPasteDispenserControls
                     Gizmo newGizmo = new Command_Action
                     {
                         defaultLabel = "Dispense " + i,
+                        icon = ContentFinder<Texture2D>.Get("UI/Designators/Open"),
                         action = delegate
                         {
                             for (int j = 0; j < i && myThis.CanDispenseNow; j++)
