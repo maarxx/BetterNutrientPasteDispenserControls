@@ -1,4 +1,4 @@
-﻿using Harmony;
+﻿using HarmonyLib;
 using RimWorld;
 using System;
 using System.Collections.Generic;
@@ -16,7 +16,7 @@ namespace BetterNutrientPasteDispenserControls
         static Main()
         {
             //Log.Message("Hello from Harmony in scope: com.github.harmony.rimworld.maarx.betternutrientpastedispensercontrols");
-            var harmony = HarmonyInstance.Create("com.github.harmony.rimworld.maarx.betternutrientpastedispensercontrols");
+            var harmony = new Harmony("com.github.harmony.rimworld.maarx.betternutrientpastedispensercontrols");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
     }
@@ -72,7 +72,7 @@ namespace BetterNutrientPasteDispenserControls
                             }
                         }
                     };
-                    __result = __result.Add(newGizmo);
+                    __result = __result.AddItem(newGizmo);
                 }
                 Log.Message("Goodbye from Harmony Postfix Patch_Building_GetGizmos " + __result.Count());
             }
