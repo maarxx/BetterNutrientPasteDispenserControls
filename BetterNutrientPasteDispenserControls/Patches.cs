@@ -30,7 +30,7 @@ namespace BetterNutrientPasteDispenserControls
         {
             if (__instance is Building_NutrientPasteDispenser)
             {
-                Log.Message("Hello from Harmony Postfix Patch_Building_GetGizmos " + __result.Count());
+                //Log.Message("Hello from Harmony Postfix Patch_Building_GetGizmos " + __result.Count());
 
                 //Building_NutrientPasteDispenser myThis = (Building_NutrientPasteDispenser)__instance;
                 //MethodInfo CanDispenseNow = myThis.GetType().GetMethod("CanDispenseNow", BindingFlags.Instance | BindingFlags.Public);
@@ -74,7 +74,7 @@ namespace BetterNutrientPasteDispenserControls
                     };
                     __result = __result.AddItem(newGizmo);
                 }
-                Log.Message("Goodbye from Harmony Postfix Patch_Building_GetGizmos " + __result.Count());
+                //Log.Message("Goodbye from Harmony Postfix Patch_Building_GetGizmos " + __result.Count());
             }
         }
     }
