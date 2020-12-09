@@ -15,9 +15,11 @@ It adds better controls for Nutrient Paste Dispensers.
 
 You'll add the mod. You'll enable the mod.
 
-When you select a Nutrient Paste Dispenser, you'll see buttons to "Dispense 1", "Dispense 5", and "Dispense 25".
+When you select a Nutrient Paste Dispenser, you'll see widget buttons to "Dispense 1", "Dispense 5", and "Dispense 25".
 
 This offers a more convenient alternative to the weird vanilla thing where you restrict a pawn at the spot and spam the draft button.
+
+![Preview of Widet Buttons](./About/Preview.png)
 
 # How to Install
 
