@@ -4,6 +4,8 @@ This is a mod for the game RimWorld by Ludeon Studios.
 
 It adds better controls for Nutrient Paste Dispensers.
 
+We're on Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=2324531554
+
 # Table of Contents
 
 * [Introduction and Explanation](#introduction-and-explanation)
