@@ -2,17 +2,17 @@
 
 This is a mod for the game RimWorld by Ludeon Studios.
 
-It adds better controls for Nutrient Paste Dispensers.
+The mod adds buttons to manually dispense from a Nutrient Paste Dispenser.
 
 We're on Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=2324531554
 
 # Table of Contents
 
-* [Introduction and Explanation](#introduction-and-explanation)
+* [Introduction](#introduction)
 
-# Introduction and Explanation
+# Introduction
 
-You'll add the mod. You'll enable the mod.
+The mod adds buttons to manually dispense from a Nutrient Paste Dispenser.
 
 When you select a Nutrient Paste Dispenser, you'll see widget buttons to "Dispense 1", "Dispense 5", and "Dispense 25".
 
